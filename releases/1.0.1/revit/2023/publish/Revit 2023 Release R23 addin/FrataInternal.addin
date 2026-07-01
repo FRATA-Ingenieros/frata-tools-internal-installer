@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>Frata BIM Tools</Name>
+		<Assembly>FrataInternal\FrataInternal.dll</Assembly>
+		<ClientId>B99C3F13-8BDC-417C-90C0-D349EEEFFEE2</ClientId>
+		<FullClassName>FrataInternal.FrataApp</FullClassName>
+		<VendorId>FrataApp</VendorId>
+	</AddIn>
+</RevitAddIns>
