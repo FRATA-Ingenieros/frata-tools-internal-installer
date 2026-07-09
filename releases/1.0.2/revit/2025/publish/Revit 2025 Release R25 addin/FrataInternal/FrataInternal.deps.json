@@ -10,8 +10,8 @@
         "dependencies": {
           "BimIssues": "1.0.2",
           "CommunityToolkit.Mvvm": "8.4.2",
-          "FrataLibrary": "4.0.1",
-          "FrataLibrary.UI": "4.0.1",
+          "Frata.Library": "2025.1.0",
+          "Frata.Library.UI": "1.0.0",
           "Newtonsoft.Json": "13.0.4",
           "Nice3point.Revit.Extensions": "2025.2.2",
           "Nice3point.Revit.Toolkit": "2025.2.0",
@@ -29,6 +29,39 @@
           "lib/net8.0/CommunityToolkit.Mvvm.dll": {
             "assemblyVersion": "8.4.0.0",
             "fileVersion": "8.4.2.1"
+          }
+        }
+      },
+      "Frata.Library/2025.1.0": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Frata.Library.UI": "1.0.0",
+          "Hangfire.Core": "1.8.23",
+          "Newtonsoft.Json": "13.0.4",
+          "Nice3point.Revit.Extensions": "2025.2.2",
+          "Nice3point.Revit.Toolkit": "2025.2.0",
+          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
+          "Serilog.Sinks.Console": "6.1.1",
+          "Serilog.Sinks.Debug": "3.0.0",
+          "System.Management": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/FrataLibrary.dll": {
+            "assemblyVersion": "2025.1.0.0",
+            "fileVersion": "2025.1.0.0"
+          }
+        },
+        "resources": {
+          "lib/net8.0-windows7.0/ru/FrataLibrary.resources.dll": {
+            "locale": "ru"
+          }
+        }
+      },
+      "Frata.Library.UI/1.0.0": {
+        "runtime": {
+          "lib/net8.0-windows7.0/FrataLibrary.UI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -171,8 +204,8 @@
       "BimIssues/1.0.2": {
         "dependencies": {
           "CommunityToolkit.Mvvm": "8.4.2",
-          "FrataLibrary": "4.0.1",
-          "FrataLibrary.UI": "4.0.1",
+          "Frata.Library": "2025.1.0",
+          "Frata.Library.UI": "1.0.0",
           "Newtonsoft.Json": "13.0.4",
           "Nice3point.Revit.Extensions": "2025.2.2",
           "Nice3point.Revit.Toolkit": "2025.2.0",
@@ -185,39 +218,6 @@
           "BimIssues.dll": {
             "assemblyVersion": "1.0.2.0",
             "fileVersion": "1.0.2.0"
-          }
-        }
-      },
-      "FrataLibrary/4.0.1": {
-        "dependencies": {
-          "CommunityToolkit.Mvvm": "8.4.2",
-          "FrataLibrary.UI": "4.0.1",
-          "Hangfire.Core": "1.8.23",
-          "Newtonsoft.Json": "13.0.4",
-          "Nice3point.Revit.Extensions": "2025.2.2",
-          "Nice3point.Revit.Toolkit": "2025.2.0",
-          "Serilog.Sinks.Autodesk.Revit": "2.0.1",
-          "Serilog.Sinks.Console": "6.1.1",
-          "Serilog.Sinks.Debug": "3.0.0",
-          "System.Management": "8.0.0"
-        },
-        "runtime": {
-          "FrataLibrary.dll": {
-            "assemblyVersion": "4.0.1.0",
-            "fileVersion": "4.0.1.0"
-          }
-        },
-        "resources": {
-          "ru/FrataLibrary.resources.dll": {
-            "locale": "ru"
-          }
-        }
-      },
-      "FrataLibrary.UI/4.0.1": {
-        "runtime": {
-          "FrataLibrary.UI.dll": {
-            "assemblyVersion": "4.0.1.0",
-            "fileVersion": "4.0.1.0"
           }
         }
       }
@@ -235,6 +235,20 @@
       "sha512": "sha512-WadCzGEc2U+3e20avRLng4qNtt4zoOGWrdUISqJWrHe3/FSnrYjuM5Sb4yQb09LhkBXrrI4Zt3dLKgRMbItsrg==",
       "path": "communitytoolkit.mvvm/8.4.2",
       "hashPath": "communitytoolkit.mvvm.8.4.2.nupkg.sha512"
+    },
+    "Frata.Library/2025.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L2MaDHyoSF3Qj1rZ3MKPOS9v8mHcqJqGb7diQCT603MKete30HoBhtEChY+JoINfvcsv/WdlHVY2Tf2m2CZtAg==",
+      "path": "frata.library/2025.1.0",
+      "hashPath": "frata.library.2025.1.0.nupkg.sha512"
+    },
+    "Frata.Library.UI/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0ds7dZo8SHVVu0KiFBLxGsH1HZRnsZ2tnMMEUkzXo/xYv5h7nl1cxEnxrA3b5cxO7bzqsTWDmhZ0Peo+KGbqwg==",
+      "path": "frata.library.ui/1.0.0",
+      "hashPath": "frata.library.ui.1.0.0.nupkg.sha512"
     },
     "Hangfire.Core/1.8.23": {
       "type": "package",
@@ -300,16 +314,6 @@
       "hashPath": "system.management.8.0.0.nupkg.sha512"
     },
     "BimIssues/1.0.2": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "FrataLibrary/4.0.1": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "FrataLibrary.UI/4.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
