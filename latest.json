@@ -1,5 +1,7 @@
 ﻿{
-    "latestVersion":  "1.0.3",
-    "updatedAtUtc":  "2026-07-19T07:29:16.5351863Z",
-    "releaseMetadata":  "releases/1.0.3/metadata/release.json"
+    "latestVersion":  "1.1.0",
+    "updatedAtUtc":  "2026-11-11T00:10:14.1142287Z",
+    "releaseMetadata":  "releases/1.1.0/metadata/release.json",
+    "installerUrl":  "https://github.com/FRATA-Ingenieros/frata-tools-internal-installer/releases/download/v1.1.0/FrataInternal-1.1.0.exe",
+    "releasePage":  "https://github.com/FRATA-Ingenieros/frata-tools-internal-installer/releases/tag/v1.1.0"
 }
