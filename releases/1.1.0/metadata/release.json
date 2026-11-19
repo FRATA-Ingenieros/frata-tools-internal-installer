@@ -3,7 +3,7 @@
     "company":  "Frata Ingenieros SAC",
     "authors":  "Franklin James Cabrera Bravo",
     "copyright":  "Copyright Â© $(CopyrightYears) $(Company)",
-    "releaseDateUtc":  "2026-11-11T00:10:14.1102273Z",
+    "releaseDateUtc":  "2026-11-19T04:02:29.3390370Z",
     "installer":  "FrataInternal-1.1.0.exe",
     "installerPath":  "https://github.com/FRATA-Ingenieros/frata-tools-internal-installer/releases/download/v1.1.0/FrataInternal-1.1.0.exe",
     "releasePage":  "https://github.com/FRATA-Ingenieros/frata-tools-internal-installer/releases/tag/v1.1.0",
